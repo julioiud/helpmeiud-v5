@@ -7,6 +7,7 @@ import lombok.experimental.FieldDefaults;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
 
 @Getter
 @Setter
@@ -27,4 +28,7 @@ public class Role implements Serializable {
 
     @Column(name = "descripcion", length = 120)
     String descripcion;
+
+   /* @ManyToMany(mappedBy = "roles")
+    List<Usuario> usuarios;*/
 }

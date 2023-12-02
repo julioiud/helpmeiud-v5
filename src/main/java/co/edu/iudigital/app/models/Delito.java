@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
 
-import javax.persistence.*;// no es buena práctica
+import javax.persistence.*;
 import java.io.Serializable;
 // debe quedar importación por importación
 
@@ -28,4 +28,5 @@ public class Delito implements Serializable {
 
     @Column(name = "descripcion", length = 120)
     String descripcion;
+
 }
