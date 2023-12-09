@@ -8,7 +8,7 @@ public interface ICasoService {
 
     List<CasoDTO> getAll(); // TODO: AGREGAR LAS EXCEPCIONES PERSONALIZADAS
 
-    CasoDTO save(CasoDTO caso);
+    CasoDTO save(CasoDTO caso); // TODO: AGREGAR LAS EXCEPCIONES PERSONALIZADAS
 
-    CasoDTO getById(Long id);
+    CasoDTO getById(Long id); // TODO: AGREGAR LAS EXCEPCIONES PERSONALIZADAS
 }
